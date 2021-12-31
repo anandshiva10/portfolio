@@ -182,4 +182,23 @@
     .i{
         flex-direction: column;
     }
+
+    .i-left-wrapper{
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    .i-desc{
+        display: none;
+    }
+
+    .i-name{
+
+        font-size: 50px;
+    
+    }
+
 }

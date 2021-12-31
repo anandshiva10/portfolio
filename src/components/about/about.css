@@ -143,3 +143,24 @@
     margin-bottom: 10px;
 
 }
+
+@media screen and (max-width:480px){
+    .a{
+        flex-direction: column;
+        text-align: center;
+        margin: 50px;
+    }
+
+    .a-left{
+        width: 100%;
+    }
+
+    .a-card{
+        height: 30vh;
+    }
+
+    .a-card.bg,.a-award{
+        display: none;
+    }
+
+}
